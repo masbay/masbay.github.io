@@ -1,0 +1,536 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>.:: SHIKEN ::.</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar sticky-top navbar-dark bg-dark" id="sticky">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                    Dikumpulin dalam waktu <span id="time"></span>!
+                </div>
+            </div>
+        </nav>
+        <hr>
+        <div class="jumbotron">
+            <h1 style="text-align: center;">SHIKEN</h1>
+            <h2 style="text-align: center;">HTML CSS JS</h2>
+        </div>
+        <hr>
+        <ol>
+            <li>
+                HTML singkatan dari ...
+                <ol type="a">
+                    <li id="jawab0"><input class="form-check-input" type="radio" value="false" name="1"> High Text Multi Language</li>
+                    <li id="jawab1"><input class="form-check-input" type="radio" value="true" name="1"> Hyper Text Markup Language</li>
+                    <li id="jawab2"><input class="form-check-input" type="radio" value="false" name="1"> Hyper Text Multi Languange</li>
+                    <li id="jawab3"><input class="form-check-input" type="radio" value="false" name="1"> High Text Markup Language</li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                CSS singkatan dari ...
+                <ol type="a">
+                    <li id="jawab4"><input class="form-check-input" type="radio" value="false" name="2"> Cascading Sensitive Sheet</li>
+                    <li id="jawab5"><input class="form-check-input" type="radio" value="true" name="2"> Cascading Style Sheet</li>
+                    <li id="jawab6"><input class="form-check-input" type="radio" value="false" name="2"> Case Sensitive Sheet</li>
+                    <li id="jawab7"><input class="form-check-input" type="radio" value="false" name="2"> Case Style Sheet</li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Tag HTML untuk membuat link adalah ...
+                <ol type="a">
+                    <li id="jawab8"><input class="form-check-input "type="radio" value="true" name="3"> <code> &lt;a href="URL/nama_file"&gt; &lt;/a&gt; </code> </li>
+                    <li id="jawab9"><input class="form-check-input" type="radio" value="false" name="3"> <code> &lt;link="URL/nama_file"&gt; &lt;/link&gt; </code> </li>
+                    <li id="jawab10"><input class="form-check-input" type="radio" value="false" name="3"> <code> &lt;a link="URL/nama_file"&gt; &lt;/a&gt; </code> </li>
+                    <li id="jawab11"><input class="form-check-input" type="radio" value="false" name="3"> <code> &lt;href="URL/nama_file"&gt; &lt;/href&gt; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Properti yang berguna untuk mengatur warna bingkai tabel
+                <ol type="a">
+                    <li id="jawab12"><input type="radio" class="form-check-input" value="false" name="4"> <code> border-style </code> </li>
+                    <li id="jawab13"><input type="radio" class="form-check-input" value="false" name="4"> <code> color-border </code> </li>
+                    <li id="jawab14"><input type="radio" class="form-check-input" value="true" name="4"> <code> border-color </code> </li>
+                    <li id="jawab15"><input type="radio" class="form-check-input" value="false" name="4"> <code> table-color </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Tag HTML yang menandakan kita menggunakan Javascript adalah ...
+                <ol type="a">
+                    <li id="jawab16"><input type="radio" class="form-check-input" value="true" name="5"> <code> &lt;script&gt; </code> </li>
+                    <li id="jawab17"><input type="radio" class="form-check-input" value="false" name="5"> <code> &lt;javascript&gt; </code> </li>
+                    <li id="jawab18"><input type="radio" class="form-check-input" value="false" name="5"> <code> &lt;sprite&gt; </code> </li>
+                    <li id="jawab19"><input type="radio" class="form-check-input" value="false" name="5"> <code> &lt;language&gt; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Tag yang digunakan untuk ganti baris
+                <ol type="a">
+                    <li id="jawab20"><input type="radio" class="form-check-input" value="false" name="6"> <code> &lt;a&gt; </code> </li>
+                    <li id="jawab21"><input type="radio" class="form-check-input" value="false" name="6"> <code> &lt;b&gt; </code> </li>
+                    <li id="jawab22"><input type="radio" class="form-check-input" value="false" name="6"> <code> &lt;p&gt; </code> </li>
+                    <li id="jawab23"><input type="radio" class="form-check-input" value="true" name="6"> <code> &lt;br&gt; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Tag yang digunakan untuk membuat paragraf adalah
+                <ol type="a">
+                    <li id="jawab24"><input type="radio" class="form-check-input" value="false" name="7"> <code> &lt;a&gt; </code> </li>
+                    <li id="jawab25"><input type="radio" class="form-check-input" value="false" name="7"> <code> &lt;b&gt; </code> </li>
+                    <li id="jawab26"><input type="radio" class="form-check-input" value="true" name="7"> <code> &lt;p&gt; </code> </li>
+                    <li id="jawab27"><input type="radio" class="form-check-input" value="false" name="7"> <code> &lt;br&gt; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Tag HTML untuk menampilkan gambar adalah
+                <ol type="a">
+                    <li id="jawab28"><input type="radio" class="form-check-input" value="false" name="8"> <code> &lt;src img="URL/nama_file"&gt; </code> </li>
+                    <li id="jawab29"><input type="radio" class="form-check-input" value="false" name="8"> <code> &lt;scr img="URL/nama_file"&gt; </code> </li>
+                    <li id="jawab30"><input type="radio" class="form-check-input" value="false" name="8"> <code> &lt;img scr="URL/nama_file"&gt; </code> </li>
+                    <li id="jawab31"><input type="radio" class="form-check-input" value="true" name="8"> <code> &lt;img src="URL/nama_file"&gt; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Tag yang digunakan untuk membuat tebal text adalah
+                <ol type="a">
+                    <li id="jawab32"><input type="radio" class="form-check-input" value="false" name="9"> <code> &lt;a&gt; </code> </li>
+                    <li id="jawab33"><input type="radio" class="form-check-input" value="true" name="9"> <code> &lt;b&gt; </code> </li>
+                    <li id="jawab34"><input type="radio" class="form-check-input" value="false" name="9"> <code> &lt;p&gt; </code> </li>
+                    <li id="jawab35"><input type="radio" class="form-check-input" value="false" name="9"> <code> &lt;br&gt; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Apakah JavaScript case-sensitive?
+                <ol type="a">
+                    <li id="jawab36"><input type="radio" class="form-check-input" value="false" name="10"> Tidak </li>
+                    <li id="jawab37"><input type="radio" class="form-check-input" value="true" name="10"> Ya </li>
+                    <li id="jawab38"><input type="radio" class="form-check-input" value="false" name="10"> Tidak yakin </li>
+                    <li id="jawab39"><input type="radio" class="form-check-input" value="false" name="10"> Mungkin </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Apa perintah JavaScript untuk mengubah isi dari element HTML dibawah?
+                &lt;p id="demo">This is a demonstration.&lt;/p&gt;
+                <ol type="a">
+                    <li id="jawab40"><input type="radio" class="form-check-input" value="false" name="11"> <code>document.getElementByName("p").innerHTML = "Hello World!"; </code> </li>
+                    <li id="jawab41"><input type="radio" class="form-check-input" value="false" name="11"> <code>document.getElement("p").innerHTML = "Hello World!"; </code> </li>
+                    <li id="jawab42"><input type="radio" class="form-check-input" value="false" name="11"> <code>#demo.innerHTML = "Hello World!"; </code> </li>
+                    <li id="jawab43"><input type="radio" class="form-check-input" value="true" name="11">  <code>document.getElementById("demo").innerHTML = "Hello World!"; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Dimana letak untuk menaruh tag <code> &lt;script&gt; </code> pada file HTML yang paling tepat?
+                <ol type="a">
+                    <li id="jawab44"><input type="radio" class="form-check-input" value="false" name="12"> Di dalam tag <code> &lt;body&gt; </code> </li>
+                    <li id="jawab45"><input type="radio" class="form-check-input" value="false" name="12"> Di dalam tag <code> &lt;head&gt; </code> </li>
+                    <li id="jawab46"><input type="radio" class="form-check-input" value="true" name="12"> Jawaban a dan b benar </li>
+                    <li id="jawab47"><input type="radio" class="form-check-input" value="false" name="12">  Jawabanku beda </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Manakah yang paling benar?
+                <ol type="a">
+                    <li id="jawab48"><input type="radio" class="form-check-input" value="true" name="13"> <code> &lt;script src="URL/nama_file"&gt; </code> </li>
+                    <li id="jawab49"><input type="radio" class="form-check-input" value="false" name="13"> <code> &lt;script link="URL/nama_file"&gt; </code> </li>
+                    <li id="jawab50"><input type="radio" class="form-check-input" value="false" name="13"> <code> &lt;script name="URL/nama_file"&gt; </code> </li>
+                    <li id="jawab51"><input type="radio" class="form-check-input" value="false" name="13"> <code> &lt;script href="URL/nama_file"&gt; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Apakah benar JavaScript harus di sertai tag <code> &lt;script&gt; </code> pada file HTML (internal maupun external)?
+                <ol type="a">
+                    <li id="jawab52"><input type="radio" class="form-check-input" value="false" name="14"> Tidak </li>
+                    <li id="jawab53"><input type="radio" class="form-check-input" value="true" name="14"> Ya </li>
+                    <li id="jawab54"><input type="radio" class="form-check-input" value="false" name="14"> Tidak yakin </li>
+                    <li id="jawab55"><input type="radio" class="form-check-input" value="false" name="14"> Mungkin </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan fungsi alert box berisi Hello World! yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab56"><input type="radio" class="form-check-input" value="false" name="15"> <code> msgBox("Hello World!"); </code> </li>
+                    <li id="jawab57"><input type="radio" class="form-check-input" value="false" name="15"> <code> alertBox("Hello World!"); </code> </li>
+                    <li id="jawab58"><input type="radio" class="form-check-input" value="true" name="15"> <code> alert("Hello World!"); </code> </li>
+                    <li id="jawab59"><input type="radio" class="form-check-input" value="false" name="15"> <code> pesan("Hello World!"); </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penamaan fungsi pada JavaScript yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab60"><input type="radio" class="form-check-input" value="true" name="16"> <code> function myFunction() </code> </li>
+                    <li id="jawab61"><input type="radio" class="form-check-input" value="false" name="16"> <code> function=myFunction() </code> </li>
+                    <li id="jawab62"><input type="radio" class="form-check-input" value="false" name="16"> <code> function:myFunction() </code> </li>
+                    <li id="jawab63"><input type="radio" class="form-check-input" value="false" name="16"> <code> function=>myFunction() </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Cara memanggil fungsi pada JavaScript yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab64"><input type="radio" class="form-check-input" value="true" name="17"> <code> myFunction() </code> </li>
+                    <li id="jawab65"><input type="radio" class="form-check-input" value="false" name="17"> <code> call myFunction() </code> </li>
+                    <li id="jawab66"><input type="radio" class="form-check-input" value="false" name="17"> menangis </li>
+                    <li id="jawab67"><input type="radio" class="form-check-input" value="false" name="17"> teriak minta tolong </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan statement IF pada JavaScript yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab68"><input type="radio" class="form-check-input" value="false" name="18"> <code> if i==5 then </code> </li>
+                    <li id="jawab69"><input type="radio" class="form-check-input" value="false" name="18"> <code> if i==5 </code> </li>
+                    <li id="jawab70"><input type="radio" class="form-check-input" value="true" name="18"> <code> if (i==5) </code> </li>
+                    <li id="jawab71"><input type="radio" class="form-check-input" value="false" name="18"> <code> if i=5 then </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan kondisi statement IF pada JavaScript jika "i" tidak sama dengan 5 adalah ...
+                <ol type="a">
+                    <li id="jawab72"><input type="radio" class="form-check-input" value="false" name="19"> <code> if i<>5 then </code> </li>
+                    <li id="jawab73"><input type="radio" class="form-check-input" value="false" name="19"> <code> if i<>5 </code> </li>
+                    <li id="jawab74"><input type="radio" class="form-check-input" value="true" name="19"> <code> if (i!=5) </code> </li>
+                    <li id="jawab75"><input type="radio" class="form-check-input" value="false" name="19"> <code> if i!=5 then </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan kondisi statement IF pada JavaScript jika "i" tidak sama dengan 5 adalah ...
+                <ol type="a">
+                    <li id="jawab76"><input type="radio" class="form-check-input" value="false" name="20"> <code> if i<>5 then </code> </li>
+                    <li id="jawab77"><input type="radio" class="form-check-input" value="false" name="20"> <code> if i<>5 </code> </li>
+                    <li id="jawab78"><input type="radio" class="form-check-input" value="true" name="20"> <code> if (i!=5) </code> </li>
+                    <li id="jawab79"><input type="radio" class="form-check-input" value="false" name="20"> <code> if i!=5 then </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan awal WHILE loop yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab80"><input type="radio" class="form-check-input" value="false" name="21"> <code> while (i <= 5; i++) </code> </li>
+                    <li id="jawab81"><input type="radio" class="form-check-input" value="true" name="21"> <code> while (i <= 5) </code> </li>
+                    <li id="jawab82"><input type="radio" class="form-check-input" value="false" name="21"> <code> while () i <= 5 </code> </li>
+                    <li id="jawab83"><input type="radio" class="form-check-input" value="false" name="21"> <code> while (i < 5) loop </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan awal FOR loop yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab84"><input type="radio" class="form-check-input" value="true" name="22"> <code> for (var i = 0; i <= 5; i++) </code> </li>
+                    <li id="jawab85"><input type="radio" class="form-check-input" value="false" name="22"> <code> for i = 1 to 5 </code> </li>
+                    <li id="jawab86"><input type="radio" class="form-check-input" value="false" name="22"> <code> for (i <= 5; i++) </code> </li>
+                    <li id="jawab87"><input type="radio" class="form-check-input" value="false" name="22"> <code> for (i = 0; i <= 5) </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan comment pada JavaScript yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab88"><input type="radio" class="form-check-input" value="false" name="23"> <code> &lt;!--Ini adalah comment--&gt; </code> </li>
+                    <li id="jawab89"><input type="radio" class="form-check-input" value="false" name="23"> <code> 'Ini adalah comment </code> </li>
+                    <li id="jawab90"><input type="radio" class="form-check-input" value="false" name="23"> <code> &lt;comment&gt; Ini adalah comment &lt;/comment&gt; </code> </li>
+                    <li id="jawab91"><input type="radio" class="form-check-input" value="true" name="23"> <code> //Ini adalah comment </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan comment lebih dari 1 baris pada JavaScript yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab92"><input type="radio" class="form-check-input" value="false" name="24"> <code> &lt;--Comment<br>test--&gt; </code> </li>
+                    <li id="jawab93"><input type="radio" class="form-check-input" value="false" name="24"> <code> 'Comment<br>test' </code> </li>
+                    <li id="jawab94"><input type="radio" class="form-check-input" value="true" name="24"> <code> /*Comment<br>test*/ </code> </li>
+                    <li id="jawab95"><input type="radio" class="form-check-input" value="false" name="24"> <code> //Comment<br>test// </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan comment pada HTML yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab96"><input type="radio" class="form-check-input" value="true" name="25"> <code> &lt;--Comment<br>test--&gt; </code> </li>
+                    <li id="jawab97"><input type="radio" class="form-check-input" value="false" name="25"> <code> 'Comment<br>test' </code> </li>
+                    <li id="jawab98"><input type="radio" class="form-check-input" value="false" name="25"> <code> /*Comment<br>test*/ </code> </li>
+                    <li id="jawab99"><input type="radio" class="form-check-input" value="false" name="25"> <code> //Comment<br>test// </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan variable array pada JavaScript yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab100"><input class="form-check-input" type="radio" value="false" name="26"> <code> var colors = (1:"red", 2:"green", 3:"blue") </code> </li>
+                    <li id="jawab101"><input class="form-check-input" type="radio" value="true" name="26"> <code> var colors = ["red", "green", "blue"]   </code> </li>
+                    <li id="jawab102"><input class="form-check-input" type="radio" value="false" name="26"> <code> var colors = "red", "green", "blue" </code> </li>
+                    <li id="jawab103"><input class="form-check-input" type="radio" value="false" name="26"> <code> var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue") </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Pendeklarasian variable pada JavaScript yang benar adalah ...
+                <ol type="a">
+                    <li id="jawa104"><input class="form-check-input" type="radio" value="false" name="27"> <code> variable carName; </code> </li>
+                    <li id="jawab105"><input class="form-check-input" type="radio" value="true" name="27"> <code> var carName; </code> </li>
+                    <li id="jawab106"><input class="form-check-input" type="radio" value="false" name="27"> <code> v carName; </code> </li>
+                    <li id="jawab107"><input class="form-check-input" type="radio" value="false" name="27"> <code> vari carName </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Menambahkan background color pada tag body, penulisan yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab108"><input class="form-check-input "type="radio" value="true" name="28"> <code> &lt;body style="background-color:yellow;"&gt; </code> </li>
+                    <li id="jawab109"><input class="form-check-input" type="radio" value="false" name="28"> <code> &lt;body bg="yellow"&gt; </code> </li>
+                    <li id="jawab110"><input class="form-check-input" type="radio" value="false" name="28"> <code> &lt;background&gt; yellow &lt;/background&gt; </code> </li>
+                    <li id="jawab111"><input class="form-check-input" type="radio" value="false" name="28"> <code> &lt;body background="yellow"&gt; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Tag untuk emphasized text adalah ...
+                <ol type="a">
+                    <li id="jawab112"><input type="radio" class="form-check-input" value="false" name="29"> <code> &lt;i&gt; </code> </li>
+                    <li id="jawab113"><input type="radio" class="form-check-input" value="false" name="29"> <code> &lt;italic&gt; </code> </li>
+                    <li id="jawab114"><input type="radio" class="form-check-input" value="true" name="29"> <code> &lt;em&gt; </code> </li>
+                    <li id="jawab115"><input type="radio" class="form-check-input" value="false" name="29"> <code> &lt;embek&gt; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Tag apa saja yang biasanya digunakan pada tag <code> &lt;table&gt; </code>?
+                <ol type="a">
+                    <li id="jawab116"><input type="radio" class="form-check-input" value="true" name="30"> <code> &lt;table&gt; &lt;td&gt; &lt;tr&gt; </code> </li>
+                    <li id="jawab117"><input type="radio" class="form-check-input" value="false" name="30"> <code> &lt;tab&gt; &lt;ttd&gt; &lt;acc&gt; </code> </li>
+                    <li id="jawab118"><input type="radio" class="form-check-input" value="false" name="30"> <code> &lt;tab&gt; &lt;tt&gt; &lt;dr&gt; </code> </li>
+                    <li id="jawab119"><input type="radio" class="form-check-input" value="false" name="30"> <code> &lt;table&gt; &lt;head&gt; &lt;tfoot&gt; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Tag membuat list terurut adalah ...
+                <ol type="a">
+                    <li id="jawab120"><input type="radio" class="form-check-input" value="false" name="31"> <code> &lt;urut&gt; </code> </li>
+                    <li id="jawab121"><input type="radio" class="form-check-input" value="false" name="31"> <code> &lt;dl&gt; </code> </li>
+                    <li id="jawab122"><input type="radio" class="form-check-input" value="false" name="31"> <code> &lt;ul&gt; </code> </li>
+                    <li id="jawab123"><input type="radio" class="form-check-input" value="true" name="31"> <code> &lt;ol&gt; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Tag membuat list tidak terurut adalah ...
+                <ol type="a">
+                    <li id="jawab124"><input type="radio" class="form-check-input" value="false" name="32"> <code> &lt;unurut&gt; </code> </li>
+                    <li id="jawab125"><input type="radio" class="form-check-input" value="false" name="32"> <code> &lt;dl&gt; </code> </li>
+                    <li id="jawab126"><input type="radio" class="form-check-input" value="true" name="32"> <code> &lt;ul&gt; </code> </li>
+                    <li id="jawab127"><input type="radio" class="form-check-input" value="false" name="32"> <code> &lt;ol&gt; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Tag HTML untuk membuat checkbox adalah ...
+                <ol type="a">
+                    <li id="jawab128"><input type="radio" class="form-check-input" value="false" name="33"> <code> &lt;check&gt; </code> </li>
+                    <li id="jawab129"><input type="radio" class="form-check-input" value="false" name="33"> <code> &lt;checkbox&gt; </code> </li>
+                    <li id="jawab130"><input type="radio" class="form-check-input" value="false" name="33"> <code> &lt;input type="check"&gt; </code> </li>
+                    <li id="jawab131"><input type="radio" class="form-check-input" value="true" name="33"> <code> &lt;input type="checkbox"&gt; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Tag HTML untuk membuat inputan bertipe text adalah ...
+                <ol type="a">
+                    <li id="jawab132"><input type="radio" class="form-check-input" value="false" name="34"> <code> &lt;textinput type="text"&gt; </code> </li>
+                    <li id="jawab133"><input type="radio" class="form-check-input" value="true" name="34"> <code> &lt;input type="text"&gt; </code> </li>
+                    <li id="jawab134"><input type="radio" class="form-check-input" value="false" name="34"> <code> &lt;input type="textfield"&gt; </code> </li>
+                    <li id="jawab135"><input type="radio" class="form-check-input" value="false" name="34"> <code> &lt;textfield&gt; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Tag HTML untuk membuat textarea adalah ...
+                <ol type="a">
+                    <li id="jawab136"><input type="radio" class="form-check-input" value="false" name="35"> <code> &lt;input type="textbox"&gt; </code> </li>
+                    <li id="jawab137"><input type="radio" class="form-check-input" value="true" name="35"> <code> &lt;textarea&gt; </code> </li>
+                    <li id="jawab138"><input type="radio" class="form-check-input" value="false" name="35"> <code> &lt;input type="textarea"&gt; </code> </li>
+                    <li id="jawab139"><input type="radio" class="form-check-input" value="false" name="35"> <code> &lt;textinput type="textarea"&gt; </code> </li>
+                </ol>
+            </li>
+            <!-- <br>
+            <li>
+                Apa perintah JavaScript untuk mengubah isi dari element HTML dibawah?
+                &lt;p id="demo">This is a demonstration.&lt;/p&gt;
+                <ol type="a">
+                    <li id="jawab140"><input type="radio" class="form-check-input" value="false" name="36"> <code>document.getElementByName("p").innerHTML = "Hello World!"; </code> </li>
+                    <li id="jawab141"><input type="radio" class="form-check-input" value="false" name="36"> <code>document.getElement("p").innerHTML = "Hello World!"; </code> </li>
+                    <li id="jawab142"><input type="radio" class="form-check-input" value="false" name="36"> <code>#demo.innerHTML = "Hello World!"; </code> </li>
+                    <li id="jawab143"><input type="radio" class="form-check-input" value="true" name="36">  <code>document.getElementById("demo").innerHTML = "Hello World!"; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Dimana letak untuk menaruh tag <code> &lt;script&gt; </code> pada file HTML yang paling tepat?
+                <ol type="a">
+                    <li id="jawab144"><input type="radio" class="form-check-input" value="false" name="37"> Di dalam tag <code> &lt;body&gt; </code> </li>
+                    <li id="jawab145"><input type="radio" class="form-check-input" value="false" name="37"> Di dalam tag <code> &lt;head&gt; </code> </li>
+                    <li id="jawab146"><input type="radio" class="form-check-input" value="true" name="37"> Jawaban a dan b benar </li>
+                    <li id="jawab147"><input type="radio" class="form-check-input" value="false" name="37">  Jawabanku beda </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Manakah yang paling benar?
+                <ol type="a">
+                    <li id="jawab148"><input type="radio" class="form-check-input" value="true" name="38"> <code> &lt;script src="URL/nama_file"&gt; </code> </li>
+                    <li id="jawab149"><input type="radio" class="form-check-input" value="false" name="38"> <code> &lt;script link="URL/nama_file"&gt; </code> </li>
+                    <li id="jawab150"><input type="radio" class="form-check-input" value="false" name="38"> <code> &lt;script name="URL/nama_file"&gt; </code> </li>
+                    <li id="jawab151"><input type="radio" class="form-check-input" value="false" name="38"> <code> &lt;script href="URL/nama_file"&gt; </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Apakah benar JavaScript harus di sertai tag <code> &lt;script&gt; </code> (internal maupun external)?
+                <ol type="a">
+                    <li id="jawab152"><input type="radio" class="form-check-input" value="false" name="39"> Tidak </li>
+                    <li id="jawab153"><input type="radio" class="form-check-input" value="true" name="39"> Ya </li>
+                    <li id="jawab154"><input type="radio" class="form-check-input" value="false" name="39"> Tidak yakin </li>
+                    <li id="jawab155"><input type="radio" class="form-check-input" value="false" name="39"> Mungkin </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan fungsi alert box berisi Hello World! yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab156"><input type="radio" class="form-check-input" value="false" name="40"> <code> msgBox("Hello World!"); </code> </li>
+                    <li id="jawab157"><input type="radio" class="form-check-input" value="false" name="40"> <code> alertBox("Hello World!"); </code> </li>
+                    <li id="jawab158"><input type="radio" class="form-check-input" value="true" name="40"> <code> alert("Hello World!"); </code> </li>
+                    <li id="jawab159"><input type="radio" class="form-check-input" value="false" name="40"> <code> pesan("Hello World!"); </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penamaan fungsi pada JavaScript yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab160"><input type="radio" class="form-check-input" value="true" name="41"> <code> function myFunction() </code> </li>
+                    <li id="jawab161"><input type="radio" class="form-check-input" value="false" name="41"> <code> function=myFunction() </code> </li>
+                    <li id="jawab162"><input type="radio" class="form-check-input" value="false" name="41"> <code> function:myFunction() </code> </li>
+                    <li id="jawab163"><input type="radio" class="form-check-input" value="false" name="41"> <code> function=>myFunction() </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Cara memanggil fungsi pada JavaScript yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab164"><input type="radio" class="form-check-input" value="true" name="42"> <code> myFunction() </code> </li>
+                    <li id="jawab165"><input type="radio" class="form-check-input" value="false" name="42"> <code> (my Function) </code> </li>
+                    <li id="jawab166"><input type="radio" class="form-check-input" value="false" name="42"> menangis </li>
+                    <li id="jawab167"><input type="radio" class="form-check-input" value="false" name="42"> teriak minta tolong </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan statement IF pada JavaScript yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab168"><input type="radio" class="form-check-input" value="false" name="43"> <code> if i==5 then </code> </li>
+                    <li id="jawab169"><input type="radio" class="form-check-input" value="false" name="43"> <code> if i==5 </code> </li>
+                    <li id="jawab170"><input type="radio" class="form-check-input" value="true" name="43"> <code> if (i==5) </code> </li>
+                    <li id="jawab171"><input type="radio" class="form-check-input" value="false" name="43"> <code> if i=5 then </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan kondisi statement IF pada JavaScript jika "i" tidak sama dengan 5 adalah ...
+                <ol type="a">
+                    <li id="jawab172"><input type="radio" class="form-check-input" value="false" name="44"> <code> if i<>5 then </code> </li>
+                    <li id="jawab173"><input type="radio" class="form-check-input" value="false" name="44"> <code> if i<>5 </code> </li>
+                    <li id="jawab174"><input type="radio" class="form-check-input" value="true" name="44"> <code> if (i!=5) </code> </li>
+                    <li id="jawab175"><input type="radio" class="form-check-input" value="false" name="44"> <code> if i!=5 then </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan kondisi statement IF pada JavaScript jika "i" tidak sama dengan 5 adalah ...
+                <ol type="a">
+                    <li id="jawab176"><input type="radio" class="form-check-input" value="false" name="45"> <code> if i<>5 then </code> </li>
+                    <li id="jawab177"><input type="radio" class="form-check-input" value="false" name="45"> <code> if i<>5 </code> </li>
+                    <li id="jawab178"><input type="radio" class="form-check-input" value="true" name="45"> <code> if (i!=5) </code> </li>
+                    <li id="jawab179"><input type="radio" class="form-check-input" value="false" name="45"> <code> if i!=5 then </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan awal WHILE loop yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab180"><input type="radio" class="form-check-input" value="false" name="46"> <code> while (i <= 5; i++) </code> </li>
+                    <li id="jawab181"><input type="radio" class="form-check-input" value="true" name="46"> <code> while (i <= 5) </code> </li>
+                    <li id="jawab182"><input type="radio" class="form-check-input" value="false" name="46"> <code> while () i <= 5 </code> </li>
+                    <li id="jawab183"><input type="radio" class="form-check-input" value="false" name="46"> <code> while (i < 5) loop </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan awal FOR loop yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab184"><input type="radio" class="form-check-input" value="true" name="47"> <code> for (var i = 0; i <= 5; i++) </code> </li>
+                    <li id="jawab185"><input type="radio" class="form-check-input" value="false" name="47"> <code> for i = 1 to 5 </code> </li>
+                    <li id="jawab186"><input type="radio" class="form-check-input" value="false" name="47"> <code> for (i <= 5; i++) </code> </li>
+                    <li id="jawab187"><input type="radio" class="form-check-input" value="false" name="47"> <code> for (i = 0; i <= 5) </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan comment pada JavaScript yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab188"><input type="radio" class="form-check-input" value="false" name="48"> <code> for (var i = 0; i <= 5; i++) </code> </li>
+                    <li id="jawab189"><input type="radio" class="form-check-input" value="false" name="48"> <code> for i = 1 to 5 </code> </li>
+                    <li id="jawab190"><input type="radio" class="form-check-input" value="false" name="48"> <code> for (i <= 5; i++) </code> </li>
+                    <li id="jawab191"><input type="radio" class="form-check-input" value="true" name="48"> <code> for (i = 0; i <= 5) </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan comment pada JavaScript yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab192"><input type="radio" class="form-check-input" value="false" name="49"> <code> for (var i = 0; i <= 5; i++) </code> </li>
+                    <li id="jawab193"><input type="radio" class="form-check-input" value="false" name="49"> <code> for i = 1 to 5 </code> </li>
+                    <li id="jawab194"><input type="radio" class="form-check-input" value="false" name="49"> <code> for (i <= 5; i++) </code> </li>
+                    <li id="jawab195"><input type="radio" class="form-check-input" value="true" name="49"> <code> for (i = 0; i <= 5) </code> </li>
+                </ol>
+            </li>
+            <br>
+            <li>
+                Penulisan comment pada JavaScript yang benar adalah ...
+                <ol type="a">
+                    <li id="jawab196"><input type="radio" class="form-check-input" value="false" name="50"> <code> for (var i = 0; i <= 5; i++) </code> </li>
+                    <li id="jawab197"><input type="radio" class="form-check-input" value="false" name="50"> <code> for i = 1 to 5 </code> </li>
+                    <li id="jawab198"><input type="radio" class="form-check-input" value="false" name="50"> <code> for (i <= 5; i++) </code> </li>
+                    <li id="jawab199"><input type="radio" class="form-check-input" value="true" name="50"> <code> for (i = 0; i <= 5) </code> </li>
+                </ol>
+            </li> -->
+        </ol>
+        <row>
+            <button class="btn btn-success" onclick="SimpanJawaban()">Kumpulkan</button>
+            <button class="btn btn-warning" onclick="window.location.reload();">Coba Lagi</button>
+        </row>
+        <hr>
+    </div>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
